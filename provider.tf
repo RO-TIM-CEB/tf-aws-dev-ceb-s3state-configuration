@@ -2,3 +2,7 @@ provider "github" {
  source = "integrations/github"
  version = "~> 5.0"
 }
+
+terraform {
+   required_version = "~> 1.5.2"  # Specify the minimum required Terraform version here
+}
