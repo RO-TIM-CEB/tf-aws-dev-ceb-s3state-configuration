@@ -1,5 +1,5 @@
 module "s3_state_file" {
-  source = "git@github.com:RO-TIM-CEB/tf-aws-dev-ceb-s3state-module.git?ref=v0.2.0"
+  source = "git@github.com:RO-TIM-CEB/tf-aws-dev-ceb-s3state-module.git?ref=v0.3.0"
 
 # terraform.tfvars
 # Important note:
@@ -14,7 +14,7 @@ module "s3_state_file" {
 # AWS profile
   profile                    = "production"            # Allowed profile names: ceb-dev, ceb-staging and ceb-prod
 # End AWS profile
-terraform_module_version     = "v0.2.0"
+terraform_module_version     = "v0.3.0"
 # End MANDATORY
 # End Global variables
 
