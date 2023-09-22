@@ -1,4 +1,4 @@
 provider "github" {
-  owner = "lingeek"
-  token = var.GITHUB_TOKEN
+  owner = var.TF_VAR_GIT_USER
+  token = var.TF_VAR_GIT_TOKEN
 }
