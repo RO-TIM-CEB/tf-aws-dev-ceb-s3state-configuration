@@ -1,5 +1,5 @@
 module "s3_state_file" {
-  source = "github.com/RO-TIM-CEB/tf-aws-dev-ceb-s3state-module.git?ref=${Version}"
+  source = "github.com/RO-TIM-CEB/tf-aws-dev-ceb-s3state-module.git?ref=${MODULE_VERSION}"
 
 # Important note:
 # If you want to change optional values, you must know what you are doing.
