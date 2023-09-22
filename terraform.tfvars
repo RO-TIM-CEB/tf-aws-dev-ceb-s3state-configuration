@@ -11,7 +11,7 @@
 # AWS profile
   profile                    = "production"            # Allowed profile names: ceb-dev, ceb-staging and ceb-prod
 # End AWS profile
-terraform_module_version     = "v0.1.0"
+terraform_module_version     = "v0.2.0"
 # End MANDATORY
 # End Global variables
 
