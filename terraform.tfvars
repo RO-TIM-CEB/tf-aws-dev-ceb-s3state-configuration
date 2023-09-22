@@ -9,7 +9,7 @@
   region                    = "us-west-2"            # Allowed regions: us-west-2, eu-west-1 and eu-central-1
 # End Default region
 # AWS profile
-  profile                    = "ceb-dev"            # Allowed profile names: ceb-dev, ceb-staging and ceb-prod
+  profile                    = "production"            # Allowed profile names: ceb-dev, ceb-staging and ceb-prod
 # End AWS profile
 terraform_module_version     = "v0.1.0"
 # End MANDATORY
