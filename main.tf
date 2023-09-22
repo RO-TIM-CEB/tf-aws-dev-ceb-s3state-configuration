@@ -7,10 +7,13 @@ module "s3_state_file" {
 #Global variables
 # MANDATORY
 # Default region
-  region                    = var.region            # Allowed regions: us-west-2, eu-west-1 and eu-central-1
+  region                                      = var.region       # Allowed regions: us-west-2, eu-west-1 and eu-central-1
+# End Default region
+# Default region
+  terraform_module_version                    = "v0.1.0"         # Allowed characters: vX.X.X, lower case
 # End Default region
 # AWS profile
-  profile                    = var.profile           # Allowed profile names: ceb-dev, ceb-staging and ceb-prod
+  profile                                     = var.profile      # Allowed profile names: ceb-dev, ceb-staging and ceb-prod
 # End AWS profile
 # End MANDATORY
 # End Global variables
