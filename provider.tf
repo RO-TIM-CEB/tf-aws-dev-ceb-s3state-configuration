@@ -1,4 +1,4 @@
 provider "github" {
   owner = "lingeek"
-  token = GITHUB_TOKEN
+  token = var.GITHUB_TOKEN
 }
