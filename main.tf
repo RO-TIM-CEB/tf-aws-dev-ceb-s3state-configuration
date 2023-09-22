@@ -10,7 +10,7 @@ module "s3_state_file" {
   region                                      = module.s3_state_file.region       # Allowed regions: us-west-2, eu-west-1 and eu-central-1
 # End Default region
 # Default region
-  terraform_module_version                    = module.s3_state_file.terraform_module_version         # Allowed characters: vX.X.X, lower case
+  terraform_module_version                    = module.s3_state_file.terraform_module_version    # Allowed characters: vX.X.X, lower case
 # End Default region
 # AWS profile
   profile                                     = module.s3_state_file.profile      # Allowed profile names: ceb-dev, ceb-staging and ceb-prod

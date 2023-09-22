@@ -24,8 +24,8 @@ terraform_module_version     = "v0.1.0"
 
   s3_bucket_versioning      = "Enabled"           # Allowed options Enabled/Disabled, defaults=Enabled
   s3_server_side_encryption = "AES256"            # Allowed options AES256/aws:kms/aws:kms:dsse, defaults=AES256
-  s3_block_public_acls      =  true               # Allowed options true/false, defaults=true
-  s3_block_public_policy    =  true               # Allowed options true/false, defaults=true
+  s3_block_public_acls      =  "true"               # Allowed options true/false, defaults=true
+  s3_block_public_policy    =  "true"               # Allowed options true/false, defaults=true
 # End OPTIONAL - ONLY IF YOU KNOW WHAT ARE YOU DOING!!!
 # End Terraform S3 variable
 
@@ -38,7 +38,7 @@ terraform_module_version     = "v0.1.0"
  dynamo_tbl_attribute_type            = "S"               # Allowed options S/N/B, defaults=S
  dynamo_tbl_hash_key                  = "LockID"          # Allowed options LockID, defaults=LockID
  dynamo_tbl_billing_mode              = "PAY_PER_REQUEST" # Allowed options PAY_PER_REQUEST/PROVISIONED, defaults=PAY_PER_REQUEST
- dynamo_tbl_point_in_time_recovery    = true              # Allowed options true/false, defaults=true
+ dynamo_tbl_point_in_time_recovery    = "true"              # Allowed options true/false, defaults=true
 # End OPTIONAL - ONLY IF YOU KNOW WHAT ARE YOU DOING!!!
 # End Terraform DynamoDB table variable
 
